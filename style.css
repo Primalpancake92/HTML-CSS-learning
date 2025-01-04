@@ -1,0 +1,37 @@
+body{
+    font-family: Montserrat;
+    background: scroll;
+    background-color: rgba(7,28,45,255);
+    background-image: image(The Debug Life.png);
+}
+
+#heading1{
+    margin: auto;
+    color: rgba(70,168,192,255);
+    border: solid;
+    width: 325px;
+    border-radius: 25px;
+    height: 45px;
+    text-align: center;
+    border-color: white;
+}
+
+#firstHorizontal{
+    color: rgb(87, 70, 70);
+    width: 1250px;
+    height: 1px;
+}
+
+#randomName{
+    color: rgba(70,168,192,255);
+}
+
+#firstParagraph{
+    color: rgba(70,168,192,255);
+    text-align: center;
+}
+
+#page2{
+    color: azure;
+    vertical-align: middle;
+}
