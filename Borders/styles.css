@@ -40,12 +40,34 @@ without needing to specify each property on a line. This makes for cleaner code.
 
 .border1{
     position: absolute;
-    border: 4px solid white;
+    border: 4px solid white; /*syntax: width style color*/
     left: 50%;
     transform: translate(-50%);
+    border-top-right-radius: 30px; /*This rounds the top right corner of the border by 30px*/
+    border-top-left-radius: 30px; /*This rounds the top left corner of the border by 30px*/
 }
 
 .heading1 {
     position: relative;
     padding: 0 20px;    
 }
+
+
+.border2{
+    position: absolute;
+    border: 3px solid white;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px; /*This rounds all the corners of the border by 30px*/
+}
+
+.heading2{
+    position: relative;
+    padding: 0 20px;
+}
+
+
+/*In summary, there are a lot of things you can do with borders: 
+Style, border thickness or width, border color, and their 
+roundedness.*/
