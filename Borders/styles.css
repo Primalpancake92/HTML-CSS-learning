@@ -8,15 +8,33 @@ body{
     background-size: cover;
 }
 
+/* This changes the border position absolute to the page
 .border1 {
+    position: absolute;
     border-color: white;
     border-style: solid;
     border-radius: 20px;
     border-width: 2px;
+    left: 50%;
+    transform: translate(-50%); 
+}
+*/
+
+/* We can make borders that have different border styles on each of the border's sides */
+.border1 {
+    position: absolute;
+    border-color: white;
+    border-right-style: dotted;
+    border-left-style: dashed;
+    border-top-style: solid;
+    border-bottom-style: double;
+    border-width: 10px;
+    border-radius: 20px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .heading1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    padding: 0 20px;    
 }
