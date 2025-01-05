@@ -1,9 +1,9 @@
 body{
-    background-image: url("/Background\ image/milky-way-starry-sky-night-sky-star-956999.jpeg");
+    background-image: url("/Images/milky-way-starry-sky-night-sky-star-956999.jpeg");
     background-color: black; /*color of the background, but redundant after adding the source of the image*/
     background-size: cover; /*covers the whole page*/
     background-repeat: no-repeat; /*removes repeat of the photo*/
-    background-position: cover; /*cover the whole page*/
+    background-position: center; /*cover the whole page*/
     background-attachment: fixed; /*changes the scroll behaviour of the background image.*/
 }
 
