@@ -4,6 +4,7 @@ body{
     background-size: cover; /*covers the whole page*/
     background-repeat: no-repeat; /*removes repeat of the photo*/
     background-position: cover; /*cover the whole page*/
+    background-attachment: fixed; /*changes the scroll behaviour of the background image.*/
 }
 
 .someparagraph {
@@ -12,7 +13,7 @@ body{
     font-family: "Montserrat";
     top: 50%;
     translate: transform -50%;
-    font-size: 12pt;
+    font-size: 25pt;
     font-style: italic;
     color: white;
 }
