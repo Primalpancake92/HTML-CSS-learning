@@ -21,6 +21,7 @@ body{
 */
 
 /* We can make borders that have different border styles on each of the border's sides */
+/*
 .border1 {
     position: absolute;
     border-color: white;
@@ -30,6 +31,16 @@ body{
     border-bottom-style: double;
     border-width: 10px;
     border-radius: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}*/
+
+/* There is also the border shorthand, which is something that we can use to assign property values
+without needing to specify each property on a line. This makes for cleaner code.*/
+
+.border1{
+    position: absolute;
+    border: 4px solid white;
     left: 50%;
     transform: translate(-50%);
 }
