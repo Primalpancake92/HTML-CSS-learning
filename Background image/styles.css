@@ -3,8 +3,8 @@ body{
     background-color: black; /*color of the background, but redundant after adding the source of the image*/
     background-size: cover; /*covers the whole page*/
     background-repeat: no-repeat; /*removes repeat of the photo*/
-    background-position: cover; /*cover the whole page*/
-    background-attachment: scroll; /*changes the scroll behaviour of the background image.*/
+    background-position: center; /*centers the starting position of the backgroung image.*/
+    background-attachment: fixed; /*changes the scroll behaviour of the background image.*/
 }
 
 .someparagraph {
