@@ -1,0 +1,31 @@
+body{
+    background-image: url("/Images/milky-way-starry-sky-night-sky-star-956999.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font: normal 20pt "Montserrat";
+    color: rgb(231, 132, 132);
+    margin: 0;
+}
+
+header{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+.navcontainer{
+    position: relative;
+    display: flex;
+    gap: 50px;
+    float: right;
+    transform: translateX(-50px);
+}
+
+a:last-child{
+    border-right: none;
+}
