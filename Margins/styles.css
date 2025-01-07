@@ -1,0 +1,30 @@
+body{
+    font: normal 16pt "Montserrat";
+    color: white;
+    background-image: url("/Images/milky-way-starry-sky-night-sky-star-956999.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container1{
+    border: 2px solid white;
+    margin: 70px -2px 0px 0px ; /*creates space around the top and left of the border*/ 
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute;
+    display: flex;
+    align-content: center;
+}
+
+.sheading1 {
+    padding: 20px;
+    display: flex;
+    position: relative
+}
+
+
+/*Note for the margin attribute, if you do not state all the sides, it would assume
+that all the sides are of set value. If you only state two values it would assume top
+and bottom are the same, and right and left are the same of the second value.*/
