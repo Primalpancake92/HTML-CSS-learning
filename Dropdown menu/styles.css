@@ -1,0 +1,33 @@
+body{
+    background-image: url("/Images/milky-way-starry-sky-night-sky-star-956999.jpeg");
+    background-color: black; /*color of the background, but redundant after adding the source of the image*/
+    background-size: cover; /*covers the whole page*/
+    background-repeat: no-repeat; /*removes repeat of the photo*/
+    background-position: center; /*centers the starting position of the backgroung image.*/
+    background-attachment: fixed; /*changes the scroll behaviour of the background image.*/
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    border: solid 2px white;
+}
+
+.drpdwnbtn{
+    padding: 15px;
+    font-size: 20pt;
+    font-family: "Montserrat";
+}
+
+.content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.drpdwnbtn .active{
+    
+}
